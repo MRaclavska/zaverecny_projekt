@@ -72,7 +72,13 @@ h4 {
     height: 74px;
     display: flex;
     margin-right: 7px;
-
+    
+}
+.menu__button-taska{
+    background-image: url("/ikons/taska.svg");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 
@@ -121,6 +127,8 @@ a {
     letter-spacing: 0.96px;
     text-decoration: none;
     margin: 11px 0 0 0;
+    width: 100%;
+    /*background-image: url("ikons/taska.svg");*/
 }
 
 .produkt {
@@ -133,11 +141,18 @@ a {
     flex-direction: column;
 }
 
-.obr--produkt img {
+/*.obr--produkt img {
     width: 353px;
     height: 237px;
     border-radius: 10px 10px 0px 0px;
+}*/
+.obr--produkt {
+    width: 353px;
+    height: 237px;
+    border-radius: 10px 10px 0px 0px;
+    background-image: url("obr/d0e60a4473f5c902e067fcc08413d8fa.jpg");
 }
+
 
 popisek--produkt {
     display: flex;
